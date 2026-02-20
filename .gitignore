@@ -1,0 +1,20 @@
+# Images (mockup exports)
+mockup-*.png
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Node (if added later)
+node_modules/
+
+# Documents
+docs/
+
+# CLAUDE
+CLAUDE.md

@@ -1,0 +1,17 @@
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .hero-stats { gap: 24px; }
+  .problems { grid-template-columns: 1fr; }
+  .compare-grid { grid-template-columns: 1fr; }
+  .steps { grid-template-columns: repeat(2, 1fr); gap: 32px; }
+  .step:not(:last-child)::after { display: none; }
+  .mockup-grid { grid-template-columns: 1fr; }
+  .benefits { grid-template-columns: 1fr; }
+  .cta-form { padding: 28px; }
+  .demo-member-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .hero-stats { flex-direction: column; gap: 16px; }
+  .steps { grid-template-columns: 1fr; }
+}
