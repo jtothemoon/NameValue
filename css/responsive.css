@@ -1,5 +1,35 @@
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
+  /* Mobile nav */
+  .hamburger { display: flex; }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    gap: 12px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links .nav-demo,
+  .nav-links .nav-cta {
+    width: 100%;
+    text-align: center;
+    padding: 14px 24px;
+    font-size: 15px;
+  }
+
+  /* Sections */
   .hero-stats { gap: 24px; }
   .problems { grid-template-columns: 1fr; }
   .compare-grid { grid-template-columns: 1fr; }
